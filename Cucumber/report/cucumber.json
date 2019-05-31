@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "user on facebook page",
+        "description": "",
+        "id": "login-feat;user-on-facebook-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34777863748,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": ": Enter the url",
+            "match": {
+              "location": "Logic.enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 180178,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": ": user enter the username and password",
+            "match": {
+              "location": "Logic.user_enter_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6903955859,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": click the login btn",
+            "match": {
+              "location": "Logic.click_the_login_btn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login feat",
+    "description": "",
+    "id": "login-feat",
+    "keyword": "Feature",
+    "uri": "Sample.feature"
+  }
+]"
+  }
+]
